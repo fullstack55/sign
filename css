@@ -1,0 +1,19 @@
+/* Simple styles for interactive menus */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+nav ul .submenu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+nav ul li:hover .submenu {
+  display: block;
+}
